@@ -1,4 +1,4 @@
-function TForm1.Freedom (x, y: Integer; Pole: TField): Boolean;
+function TForm1.Freedom (x, y: Integer; Field: TField): Boolean;
 const d: array[1..8,1..2] of Integer =
       ((0,1),(1,0),(0,-1),(-1,0),(1,1),(-1,1),(1,-1),(-1,-1));
 var i: Integer;
